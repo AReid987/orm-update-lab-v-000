@@ -61,6 +61,10 @@ class Student
       self.new_from_db(row)
     end.first
   end
+
+  def update
+    
+  end
   # Remember, you can access your database connection anywhere in this class
   #  with DB[:conn]
 
