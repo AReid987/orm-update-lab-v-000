@@ -40,7 +40,7 @@ class Student
   end
 
   def self.create(name, grade)
-    student = self.new(id = nil, name, grade)
+    student = self.new(name, grade)
     student
   end
   # Remember, you can access your database connection anywhere in this class
